@@ -29,36 +29,6 @@ export default function WritePage() {
   const [content, setContent] = useState('')
   const [image, setImage] = useState<File | null>(null)
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-
-    const user = getUser()
-    if (!user) {
-      alert("Please log in first.")
-      return router.push('/login')
-    }
-
-    const readerStories = JSON.parse(localStorage.getItem('grindtales_stories') || '[]')
-
-    const newStory: Story = {
-      id: uuidv4(),
-      title,
-      content,
-      author: user.username,
-      createdAt: new Date().toISOString(),
-      image: image ? URL.createObjectURL(image) : undefined,
-      likes: 0,
-      tips: 0,
-    }
-
-    localStorage.setItem(
-      'grindtales_stories',
-      JSON.stringify([newStory, ...readerStories])
-    )
-
-    router.push('/stories')
-  }
-
   return (
     <section className="max-w-3xl w-full mx-auto bg-zinc-900/80 rounded-2xl shadow-xl border border-purple-400 backdrop-blur-md p-8 space-y-6">
       <h1 className="text-3xl font-bold text-white font-handwriting">✍️ Write Your Story</h1>

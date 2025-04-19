@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import HamsterIcon from '@/components/HamsterIcon'
 
 type Story = {
   id: string

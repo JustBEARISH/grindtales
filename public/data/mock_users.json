@@ -1,0 +1,27 @@
+[
+  {
+    "username": "StarryWriter",
+    "profilePic": "/ham1.png",
+    "grind": 75
+  },
+  {
+    "username": "MysticQuill",
+    "profilePic": "/ham2.png",
+    "grind": 120
+  },
+  {
+    "username": "FableFox",
+    "profilePic": "/ham3.png",
+    "grind": 30
+  },
+  {
+    "username": "ByteTeller",
+    "profilePic": "/ham4.png",
+    "grind": 90
+  },
+  {
+    "username": "InkMage",
+    "profilePic": "/ham2.png",
+    "grind": 150
+  }
+]

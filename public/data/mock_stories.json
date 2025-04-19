@@ -1,0 +1,37 @@
+[
+  {
+    "id": "story1",
+    "title": "The Stardust Path",
+    "text": "In a galaxy where stars whispered secrets, one hamster dared to listen...",
+    "author": "StarryWriter",
+    "tips": 8
+  },
+  {
+    "id": "story2",
+    "title": "Cursed Scrolls of Glowkeep",
+    "text": "Every midnight, the ancient scroll opened itself, revealing a new truth \u2014 or a new curse.",
+    "author": "MysticQuill",
+    "tips": 15
+  },
+  {
+    "id": "story3",
+    "title": "Tales from the Tech Jungle",
+    "text": "In a digital rainforest, ByteTeller uncovered the lost code of the Ancients.",
+    "author": "ByteTeller",
+    "tips": 5
+  },
+  {
+    "id": "story4",
+    "title": "Grind of the Forgotten Mage",
+    "text": "Banished from the tower, the InkMage carved new spells using only $GRIND and willpower.",
+    "author": "InkMage",
+    "tips": 22
+  },
+  {
+    "id": "story5",
+    "title": "The Whisker Protocol",
+    "text": "FableFox\u2019s fur twitched. Something was off. The Hamnet had been breached again...",
+    "author": "FableFox",
+    "tips": 4
+  }
+]

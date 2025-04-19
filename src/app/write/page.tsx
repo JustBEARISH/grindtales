@@ -1,8 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { useRouter } from 'next/navigation'
-import { v4 as uuidv4 } from 'uuid'
+// import { useRouter } from 'next/navigation'
+// import { v4 as uuidv4 } from 'uuid'
 
 type Story = {
   id: string
@@ -15,19 +15,19 @@ type Story = {
   tips: number
 }
 
-const getUser = () => {
-  if (typeof window !== 'undefined') {
-    const user = localStorage.getItem('grindtales_user')
-    return user ? JSON.parse(user) : null
-  }
-  return null
-}
+// const getUser = () => {
+//   if (typeof window !== 'undefined') {
+//     const user = localStorage.getItem('grindtales_user')
+//     return user ? JSON.parse(user) : null
+//   }
+//   return null
+// }
 
 export default function WritePage() {
-  const router = useRouter()
+  // const router = useRouter()
   const [title, setTitle] = useState('')
   const [content, setContent] = useState('')
-  const [image, setImage] = useState<File | null>(null)
+  // const [image, setImage] = useState<File | null>(null)
 
   return (
     <section className="max-w-3xl w-full mx-auto bg-zinc-900/80 rounded-2xl shadow-xl border border-purple-400 backdrop-blur-md p-8 space-y-6">
@@ -54,7 +54,7 @@ export default function WritePage() {
       <input
         type="file"
         accept="image/*"
-        onChange={(e) => setImage(e.target.files?.[0] || null)}
+        onChange={(e) => {}}
         className="text-white"
       />
 

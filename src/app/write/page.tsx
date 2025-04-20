@@ -18,6 +18,10 @@ export default function WritePage() {
   const [content, setContent] = useState('')
   // const [image, setImage] = useState<File | null>(null)
 
+  const handleSomething = () => {
+    // your logic
+  }
+
   return (
     <section className="max-w-3xl w-full mx-auto bg-zinc-900/80 rounded-2xl shadow-xl border border-purple-400 backdrop-blur-md p-8 space-y-6">
       <h1 className="text-3xl font-bold text-white font-handwriting">✍️ Write Your Story</h1>

@@ -4,17 +4,6 @@ import { useState } from 'react'
 // import { useRouter } from 'next/navigation'
 // import { v4 as uuidv4 } from 'uuid'
 
-type Story = {
-  id: string
-  title: string
-  content: string
-  image?: string
-  author: string
-  createdAt: string
-  likes: number
-  tips: number
-}
-
 // const getUser = () => {
 //   if (typeof window !== 'undefined') {
 //     const user = localStorage.getItem('grindtales_user')
